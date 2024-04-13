@@ -4,7 +4,7 @@ import useCompetencySearch from "./hooks/useCompetencySearch";
 function App() {
   const { competencies, loading, lastCompetencyElement } = useCompetencySearch({
     pageSize: 40,
-    categoryId: "d7d70f47-63a6-4b21-a4cc-8c9822083413",
+    categoryId: "d7d70f4",
   });
 
   return (
